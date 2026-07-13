@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import { skills } from "../data/skills";
+import { skills } from "../data/Skills";
 import SkillCard from "./SkillCard";
 
 
@@ -13,10 +13,8 @@ function About() {
         {skills.map((skill) => (
           <SkillCard
             key={skill.id}
-            icon={skill.icon}
-            title={skill.title}
-            description={skill.description}
-           />
+            skill={skill}
+        />
         ))}
       </div>
     </section>

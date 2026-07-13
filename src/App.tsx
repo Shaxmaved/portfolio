@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About"; 
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
        bio="With great power comes great responsibility"
       /> */}
       <About />
+      <Projects />
       <Footer />
     </>
   );

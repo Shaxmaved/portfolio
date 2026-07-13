@@ -8,7 +8,8 @@ export const skills = [
     title: "AI Engineer",
     description:
       "Building intelligent AI applications using Python and Machine Learning.",
-    icon: <MdPsychology className="card-icon" />,
+    icon: MdPsychology,
+    level: "Advanced",
   },
 
   {
@@ -16,15 +17,17 @@ export const skills = [
     title: "FastAPI",
     description:
       "Developing scalable REST APIs for AI applications.",
-    icon: <SiFastapi className="card-icon" />,
+    icon: SiFastapi,
+    level: "Advanced",
   },
 
   {
-    id : 3,
+    id: 3,
     title: "React",
     description:
       "Creating modern and interactive user interfaces.",
-    icon: <FaReact className="card-icon" />,
+    icon: FaReact,
+    level: "Advanced",
   },
 
   {
@@ -32,22 +35,25 @@ export const skills = [
     title: "Python",
     description:
       "Building Machine Learning, Automation and AI solutions.",
-    icon: <FaPython className="card-icon" />,
+    icon: FaPython,
+    level: "Advanced",
   },
 
   {
     id: 5,
     title: "Machine Learning",
     description:
-      "Building and deploying Machine Learning models for various applications.",
-    icon: <MdPsychology className="card-icon" />,
+      "Building and deploying Machine Learning models.",
+    icon: MdPsychology,
+    level: "Advanced",
   },
 
   {
     id: 6,
     title: "SQL",
     description:
-      "Designing and managing databases for AI applications.",
-    icon: <FaDatabase className="card-icon" />,
+      "Designing and managing relational databases.",
+    icon: FaDatabase,
+    level: "Advanced",
   },
 ];
