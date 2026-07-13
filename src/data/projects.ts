@@ -1,4 +1,4 @@
-github:"https://github.com/Shaxmaved/portfolio"
+// github:"https://github.com/Shaxmaved/portfolio"
 
 export const projects = [
 
@@ -9,7 +9,11 @@ title:"Resume Analyzer",
 
 description:"AI-powered ATS resume analyzer.",
 
-tech:"React • FastAPI • Python"
+tech:"React • FastAPI • Python",
+
+github: "https://github.com/Shaxmaved/portfolio",
+
+live: "https://google.com"
 
 },
 
@@ -20,7 +24,11 @@ title:"OCR System",
 
 description:"Extract text from documents using AI.",
 
-tech:"OpenCV • FastAPI"
+tech:"OpenCV • FastAPI",
+
+github: "https://github.com/Shaxmaved/portfolio",
+
+live: "https://google.com"
 
 },
 
@@ -31,7 +39,11 @@ title:"Face Recognition",
 
 description:"Real-time face recognition system.",
 
-tech:"InsightFace • OpenCV"
+tech:"InsightFace • OpenCV",
+
+github: "https://github.com/Shaxmaved/portfolio",
+
+live: "https://google.com"
 
 },
 
@@ -43,7 +55,11 @@ title:"Image Enhancer",
 
 description:"Enhance image quality using ML model.",
 
-tech:"Python • OpenCV • Real-ESRGAN"
+tech:"Python • OpenCV • Real-ESRGAN",
+
+github: "https://github.com/Shaxmaved/portfolio",
+
+live: "https://google.com"
 }
 
 ];
