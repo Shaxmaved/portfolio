@@ -32,13 +32,17 @@ function ProjectCard({ project }: ProjectCardProps) {
 
       <br /><br />
 
-      <button onClick={openLive}>
-        Live Demo
-      </button>
+        <div className="project-buttons">
 
-      <button onClick={openGithub}>
-        GitHub
-      </button>
+            <button onClick={() => window.open(project.live, "_blank")}>
+                Live Demo
+            </button>
+
+            <button onClick={() => window.open(project.github, "_blank")}>
+                GitHub
+            </button>
+
+        </div>
 
     </div>
   );
